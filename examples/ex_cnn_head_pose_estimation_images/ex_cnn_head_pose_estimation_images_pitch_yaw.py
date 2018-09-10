@@ -8,8 +8,8 @@
 #CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
 #SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-import tensorflow as tf
 import cv2
+import tensorflow as tf
 from deepgaze.head_pose_estimation import CnnHeadPoseEstimator
 
 sess = tf.Session() #Launch the graph in a session.
